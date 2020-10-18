@@ -1,0 +1,10 @@
+{
+  "donationApp": {
+    "IsActiveStatus": {
+      "null": "",
+      "ACTIVE": "ACTIVE",
+      "DISABLED": "DISABLED",
+      "WAITING_APPROVAL": "WAITING FOR APPROVAL"
+    }
+  }
+}

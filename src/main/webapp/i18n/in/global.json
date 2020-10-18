@@ -1,0 +1,144 @@
+{
+  "global": {
+    "title": "Donation",
+    "browsehappy": "Kamu menggunakan peramban versi lama. Silakan <a href=\"http://browsehappy.com/?locale=en\">perbaharui peramban kamu</a> untuk meningkatkan kenyamanan kamu.",
+    "menu": {
+      "home": "Dashboard",
+      "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
+      "entities": {
+        "main": "Entitas",
+        "organizer": "Pengurus",
+        "donation": "Donasi",
+        "transaction": "Transaksi",
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+      },
+      "account": {
+        "main": "Akun",
+        "settings": "Pengaturan",
+        "password": "Password",
+        "sessions": "Sesi",
+        "login": "Masuk",
+        "logout": "Keluar",
+        "register": "Daftar"
+      },
+      "admin": {
+        "main": "Administrasi",
+        "userManagement": "Manajemen pengguna",
+        "tracker": "Pelacak pengguna",
+        "metrics": "Pengukuran Aplikasi",
+        "health": "Kesehatan Aplikasi",
+        "configuration": "Konfigurasi",
+        "logs": "Logs",
+        "audits": "Audit",
+        "apidocs": "API",
+        "database": "Database",
+        "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
+      },
+      "language": "Bahasa"
+    },
+    "form": {
+      "username.label": "Username",
+      "username.placeholder": "Username kamu",
+      "currentpassword.label": "Password sekarang",
+      "currentpassword.placeholder": "Password sekarang",
+      "newpassword.label": "Password baru",
+      "newpassword.placeholder": "Ketik password baru kamu disini",
+      "confirmpassword.label": "Konfirmasi password baru",
+      "confirmpassword.placeholder": "Ketik konfirmasi password baru kamu disini",
+      "email.label": "Email",
+      "email.placeholder": "Email kamu"
+    },
+    "messages": {
+      "info": {
+        "authenticated": {
+          "prefix": "Sudah punya akun? ",
+          "link": "Masuk",
+          "suffix": ", kamu bisa coba menggunakan akun yang sudah ada:<br/>- Administrator (username=\"admin\" and password=\"admin\") <br/>- User (username=\"user\" and password=\"user\")."
+        },
+        "register": {
+          "noaccount": "Kamu belum punya akun?",
+          "link": "Buat akun baru kamu disini"
+        }
+      },
+      "error": {
+        "dontmatch": "Password dan konfirmasi password tidak sama!"
+      },
+      "validate": {
+        "newpassword": {
+          "required": "Password kamu diperlukan.",
+          "minlength": "Password kamu diperlukan setidaknya minimal 4 karakter.",
+          "maxlength": "Password kamu tidak boleh lebih dari 50 karakter.",
+          "strength": "Ukuran keamanan password:"
+        },
+        "confirmpassword": {
+          "required": "Konfirmasi password kamu diperlukan.",
+          "minlength": "Konfirmasi Password kamu diperlukan setidaknya minimal 4 karakter.",
+          "maxlength": "Konfirmasi Password kamu tidak boleh lebih dari 50 karakter."
+        },
+        "email": {
+          "required": "Email kamu diperlukan.",
+          "invalid": "Email kamu tidak valid.",
+          "minlength": "Email kamu diperlukan setidaknya minimal 5 karakter.",
+          "maxlength": "Email kamu tidak boleh lebih dari 50 karakater."
+        }
+      }
+    },
+    "field": {
+      "id": "ID"
+    },
+    "ribbon": {
+      "dev": "Pengembangan"
+    },
+    "item-count": "Menampilkan {{first}} - {{second}} dari {{total}} item."
+  },
+  "entity": {
+    "action": {
+      "addblob": "Tambah blob",
+      "addimage": "Tambah gambar",
+      "back": "Kembali",
+      "cancel": "Batal",
+      "delete": "Hapus",
+      "edit": "Ubah",
+      "open": "Buka",
+      "save": "Simpan",
+      "view": "Lihat"
+    },
+    "detail": {
+      "field": "Inputan",
+      "value": "Nilai"
+    },
+    "delete": {
+      "title": "Konfirmasi proses penghapusan"
+    },
+    "validation": {
+      "required": "Inputan ini diperlukan.",
+      "minlength": "Inputan ini diperlukan minimal {{ min }} karakter.",
+      "maxlength": "Inputan ini tidak boleh lebih dari {{ max }} karakter.",
+      "min": "Inputan ini harus minimal {{ min }}.",
+      "max": "Inputan ini tidak boleh lebih dari {{ max }}.",
+      "minbytes": "Inputan ini harus minimal {{ min }} bytes.",
+      "maxbytes": "Inputan ini tidak boleh lebih dari {{ max }} bytes.",
+      "pattern": "Inputan ini harus mengikuti pola {{ pattern }}.",
+      "number": "Inputan ini harus angka.",
+      "datetimelocal": "Inputan ini harus tanggal dan jam.",
+      "email": "Inputan ini harus berupa alamat email yang valid",
+      "url": "Inputan ini harus berupa url yang valid"
+    }
+  },
+  "error": {
+    "internalServerError": "Kesalahan internal server",
+    "server.not.reachable": "Server tidak terjangkau",
+    "url.not.found": "Tidak ditemukan",
+    "NotNull": "Inputan {{ fieldName }} tidak boleh kosong!",
+    "Size": "Inputan {{ fieldName }} tidak memenuhi syarat min/max yang ditetapkan!",
+    "userexists": "Nama login sudah digunakan!",
+    "emailexists": "Email sudah digunakan!",
+    "idexists": "{{ entityName }} yang baru tidak boleh menggunakan id yang sudah ada",
+    "idnull": "ID Tidak Valid",
+    "file": {
+      "could.not.extract": "Could not extract file",
+      "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
+    }
+  },
+  "footer": "&copy; 2020 saweran.charity. Hak cipta dilindungi."
+}

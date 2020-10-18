@@ -1,0 +1,24 @@
+{
+  "login": {
+    "title": "Masuk",
+    "form": {
+      "password": "Password",
+      "password.placeholder": "Password anda",
+      "rememberme": "Ingat saya",
+      "button": "Masuk",
+      "recaptcha.checking": "Mohon menunggu, sistem sedang validasi ReCaptcha V3",
+      "validation": {
+        "username": "Mohon masukkan username Anda",
+        "password": "Mohon masukkan password Anda"
+      }
+    },
+    "messages": {
+      "error": {
+        "authentication": "<strong>Gagal masuk!</strong> Silakan cek data anda dan coba lagi."
+      }
+    },
+    "password": {
+      "forgot": "Apakah anda lupa passsword?"
+    }
+  }
+}

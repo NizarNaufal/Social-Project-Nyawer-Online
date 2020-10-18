@@ -1,0 +1,107 @@
+/**
+ * Organizer entity.
+ * @author RT.
+ */
+entity Organizer {
+	name String maxlength(100) required unique
+    email String maxlength(100) required
+    url String maxlength(100)
+    logo String maxlength(200)
+    logoStyle String maxlength(500)
+    bankAccountNumber String maxlength(15)
+    bankAccountName String maxlength(100)
+    bankName String maxlength(100)
+    mdr Float max(100)
+    sharing Float max(100)
+    lastUpdatedBy String maxlength(100)
+    lastUpdatedAt Instant
+    mallId Integer
+    sharedKey String maxlength(20)
+    serviceId Integer
+    acquirerId Integer
+    status IsActiveStatus
+}
+
+/**
+ * Donation entity.
+ * @author RT.
+ */
+entity Donation {
+	name String maxlength(100) required unique
+    description String maxlength(2000)
+    url String maxlength(100)
+    logo String maxlength(200)
+    logoStyle String maxlength(500)
+    paymentSlug String maxlength(100) unique
+    bankAccountNumber String maxlength(15)
+    bankAccountName String maxlength(100)
+    bankName String maxlength(100)
+    chainMallId Integer
+    lastUpdatedBy String maxlength(100)
+    lastUpdatedAt Instant
+    status IsActiveStatus
+}
+
+/**
+ * Transaction entity.
+ * @author RT.
+ */
+entity Transaction {
+	invoiceNumber String maxlength(64) required unique
+    sessionId String maxlength(128)
+    basket String maxlength(1024)
+    ovoIdMasked String maxlength(15)
+    deviceInformation String maxlength(1000)
+  	name String maxlength(30)
+    mobile String maxlength(15)
+    email String maxlength(100)
+    amount Long min(10000)
+    paymentChannel PaymentChannel
+    mallId Integer
+    trxCode String
+    paymentDate Instant
+    responseCode String
+    message String
+    paymentSystrace String
+    approvalCode String
+    paymentHostRefNumber String
+    captchaToken String maxlength(1000)
+    captchaScore Float
+    lastUpdatedBy String maxlength(100)
+    lastUpdatedAt Instant
+    status TransactionStatus
+}
+
+enum IsActiveStatus {
+    ACTIVE, DISABLED, WAITING_APPROVAL
+}
+
+enum TransactionStatus {
+	INITIATE, PROCESS, SUCCESS, FAILED 
+}
+
+enum PaymentChannel {
+	OVO
+}
+
+relationship OneToMany {
+	Organizer{donation} to Donation{organizer}
+    Donation{transaction} to Transaction{donation}
+}
+
+relationship ManyToMany {
+	Organizer{user} to User{organiser}
+}
+
+//readOnly Transaction
+paginate Organizer, Donation with infinite-scroll
+paginate Transaction with pagination
+
+service all with serviceImpl
+
+//relationship ManyToOne {
+//}
+
+// dto * with mapstruct
+
+// angularSuffix * with mySuffix

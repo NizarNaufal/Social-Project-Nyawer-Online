@@ -1,0 +1,36 @@
+{
+  "home": {
+    "menu": {
+      "list": "Daftar Karya Seni",
+      "about": "Tentang Kami",
+      "contact": "Hubungi Kami"
+    },
+    "heading": {
+      "main": "Merayakan Keindahan Seni",
+      "mainaccent": "di Sekitar Kita",
+      "description": "Apapun karya senimu, dapatkan dukungan dari para penggemarmu untuk terus menciptakan karya seni terbaikmu.",
+      "showart": "Lihat karya seni",
+      "presentart": "Tunjukan karyamu"
+    },
+    "cta": {
+      "main": "Siap berkontribusi?",
+      "mainaccent": "Daftar dan tunjukkan karyamu",
+      "register": "Daftar Sekarang"
+    },
+    "title": "Platform Donasi Apresiasi Karya Seni | Saweran.charity",
+    "subtitle": "Ini adalah halaman utama anda",
+    "logged": {
+      "message": "Halo, \"{{username}}\""
+    },
+    "question": "Jika anda punya pertanyaan tentang JHipster:",
+    "link": {
+      "homepage": "JHipster homepage",
+      "stackoverflow": "JHipster di Stack Overflow",
+      "bugtracker": "JHipster bug tracker",
+      "chat": "JHipster chat publik",
+      "follow": "ikuti @jhipster di Twitter"
+    },
+    "like": "Jika anda menyukai JHipster, jangan lupa beri kami bintang di",
+    "github": "GitHub"
+  }
+}

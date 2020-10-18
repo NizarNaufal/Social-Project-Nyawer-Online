@@ -1,0 +1,11 @@
+{
+  "donationApp": {
+    "TransactionStatus": {
+      "null": "",
+      "INITIATE": "INITIATE",
+      "PROCESS": "PROCESS",
+      "SUCCESS": "SUCCESS",
+      "FAILED": "FAILED"
+    }
+  }
+}
