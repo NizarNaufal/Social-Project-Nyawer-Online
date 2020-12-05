@@ -2,9 +2,6 @@
 
 For further development and new change request please kindly contact us via email to admin@saweran.charity . 
 
-You may check progress of future development and change request on this Trello board: 
-https://trello.com/b/ELZ7dhqY/social-project-ngamen-online-v1 .
-
 # Donation
 
 This application's purpose is for non Commercial purpose, if you want to donate to this application please visit https://www.saweran.charity/payment/donasi-saweran-charity .
